@@ -26,6 +26,7 @@
     "less": "~3.9.0",
     "less-loader": "^4.1.0",
     "prettier": "^1.18.2",
+    "simditor": "^2.3.28",
     "vue-template-compiler": "^2.6.10"
   }
 }

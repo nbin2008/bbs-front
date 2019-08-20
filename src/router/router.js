@@ -10,14 +10,49 @@ export default new Router({
   routes: [
     {
       path: "/",
-      redirect: "/home",
+      redirect: "/topic",
       name: "basic",
       component: basic,
       children: [
         {
-          path: "/home",
-          name: "/home",
-          component: () => import("@/views/Home"),
+          path: "/topic",
+          name: "/topic",
+          component: () => import("@/views/Topic")
+        },
+        {
+          path: "/topic/createEdit",
+          name: "/topic/createEdit",
+          component: () => import("@/views/TopicCreateEdit")
+        },
+        {
+          path: "/topic/notice",
+          name: "/topic/notice",
+          component: () => import("@/views/Notice")
+        },
+        {
+          path: "/personal",
+          name: "/personnal",
+          component: () => import("@/views/Personal")
+        },
+        {
+          path: "/editPersonInfo",
+          name: "/editPersonInfo",
+          component: () => import("@/views/EditPersonInfo")
+        },
+        {
+          path: "/topic/detail",
+          name: "/topic/detail",
+          component: () => import("@/views/TopicDetail")
+        },
+        {
+          path: "/regis",
+          name: "/regis",
+          component: () => import("@/views/Regis")
+        },
+        {
+          path: "/login",
+          name: "/login",
+          component: () => import("@/views/Login")
         }
       ]
     }

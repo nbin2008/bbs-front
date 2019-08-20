@@ -1,7 +1,9 @@
 <template>
   <div>
-    <h1>这是头部</h1>
-    <router-view />
+    <headc></headc>
+    <div class="container">
+      <router-view />
+    </div>
   </div>
 </template>
 
