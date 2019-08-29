@@ -8,13 +8,13 @@
               <img class="thumbnail img-responsive" src="" width="300px" height="300px">
             </div>
             <div class="media-body">
-              <hr>
+              <hr />
               <h4><strong>个人简介</strong></h4>
               <p>这是个人简介</p>
-              <hr>
+              <hr />
               <h4><strong>注册于</strong></h4>
               <p>这是注册时间</p>
-              <br>
+              <br />
               <h4><strong>最后活跃</strong></h4>
               <p>这是最后活跃时间</p>
             </div>
@@ -26,11 +26,11 @@
       <div class="panel panel-default">
         <div class="panel-body">
           <span>
-              <h1 class="panel-title pull-left" style="font-size:30px;">用户名 <small>用户邮箱</small></h1>
+            <h1 class="panel-title pull-left" style="font-size:30px;">用户名 <small>用户邮箱</small></h1>
           </span>
         </div>
       </div>
-      <hr>
+      <hr />
       <!-- 用户发布的内容 -->
       <div class="panel panel-default">
         <div class="panel-body">
@@ -80,9 +80,7 @@
 <script>
 export default {
   name: "Personal"
-}
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

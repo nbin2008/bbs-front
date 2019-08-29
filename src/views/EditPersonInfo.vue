@@ -23,11 +23,9 @@
           <div class="form-group">
             <label class="avatar-label">用户头像</label>
             <input type="file" name="avatar">
-
-            <br>
+            <br />
             <img class="thumbnail img-responsive" src="" width="200" />
           </div>
-
           <div class="well well-sm">
             <button type="submit" class="btn btn-primary">保存</button>
           </div>
@@ -38,11 +36,9 @@
 </template>
 
 <script>
-  export default {
-    name: "EditPersonInfo"
-  }
+export default {
+  name: "EditPersonInfo"
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

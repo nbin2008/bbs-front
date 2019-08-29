@@ -7,7 +7,7 @@
           <div class="text-center">
             作者：xxx
           </div>
-          <hr>
+          <hr />
           <div class="media">
             <div align="center">
               <a href="">
@@ -38,7 +38,7 @@
           </div>
 
           <div class="operate">
-            <hr>
+            <hr />
             <a href="" class="btn btn-default btn-xs pull-left" role="button">
               <i class="glyphicon glyphicon-edit"></i> 编辑
             </a>
@@ -65,7 +65,7 @@
               <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-share"></i>回复</button>
             </form>
           </div>
-          <hr>
+          <hr />
           <!-- 回复列表 -->
           <div class="media">
             <div class="avatar pull-left">
@@ -73,13 +73,12 @@
                 <img class="media-object img-thumbnail" src=""  style="width:48px;height:48px;"/>
               </a>
             </div>
-
             <div class="infos">
               <div class="media-heading">
                 <a href="">
                   名称
                 </a>
-                <span> •  </span>
+                <span> • </span>
                 <span class="meta" title="">3天前</span>
                 <span class="meta pull-right">
                   <form action="" method="post">
@@ -94,7 +93,7 @@
               </div>
             </div>
           </div>
-          <hr>
+          <hr />
         </div>
       </div>
     </div>
@@ -102,11 +101,9 @@
 </template>
 
 <script>
-  export default {
-    name: "TopicDetail"
-  }
+export default {
+  name: "TopicDetail"
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

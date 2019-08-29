@@ -20,7 +20,7 @@
 <!--          </div>-->
           <button type="submit" class="btn btn-primary">登录</button>
         </form>
-        <hr>
+        <hr />
         <p>还没账号？<a href="">现在注册！</a></p>
       </div>
     </div>
@@ -28,11 +28,9 @@
 </template>
 
 <script>
-  export default {
-    name: "Login"
-  }
+export default {
+  name: "Login"
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
